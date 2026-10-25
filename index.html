@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Góc Sinh Viên - đồ uống ngon, giá hợp túi tiền sinh viên.">
+  <title>Góc Sinh Viên | Đồ uống dành cho bạn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="trang-chu">
+    <a class="brand" href="#trang-chu" aria-label="Góc Sinh Viên - Trang chủ">
+      <span class="brand-mark">GS</span>
+      <span class="brand-text"><strong>GÓC SINH VIÊN</strong><small>Đồ uống vui - Giá sinh viên</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Điều hướng chính">
+      <a href="#trang-chu">Trang chủ</a>
+      <a href="#san-pham">Sản phẩm</a>
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <a class="header-cta" href="#lien-he">Đặt hàng ngay</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">NẠP NĂNG LƯỢNG • HỌC TẬP HẾT MÌNH</span>
+        <h1>Một chút ngon,<br><span>cả ngày vui!</span></h1>
+        <p>Đồ uống thơm ngon, tươi mới mỗi ngày với mức giá thân thiện dành riêng cho sinh viên.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#san-pham">Khám phá menu <span>→</span></a>
+          <a class="button button-light" href="#gioi-thieu">Về chúng mình</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✓</span> Ngon mỗi ngày · Giá từ 15.000đ</div>
+      </div>
+      <div class="hero-art" aria-label="Minh họa các ly đồ uống">
+        <div class="sun-shape"></div>
+        <div class="floating-tag tag-top">Tươi mỗi ngày ✦</div>
+        <div class="drink drink-one"><div class="lid"></div><div class="straw"></div><div class="drink-label">MATCHA<br><small>LATTE</small></div><div class="pearls"></div></div>
+        <div class="drink drink-two"><div class="lid"></div><div class="straw straw-pink"></div><div class="drink-label">TRÀ ĐÀO<br><small>CAM SẢ</small></div><div class="peach"></div></div>
+        <div class="drink drink-three"><div class="lid"></div><div class="straw straw-yellow"></div><div class="drink-label">CÀ PHÊ<br><small>SỮA</small></div></div>
+        <div class="floating-tag tag-bottom">✨ Năng lượng tích cực</div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Ưu điểm">
+      <div><span>☕</span><p><strong>Nguyên liệu tươi</strong><small>Chọn lọc mỗi ngày</small></p></div>
+      <div><span>♡</span><p><strong>Giá sinh viên</strong><small>Chỉ từ 15.000đ</small></p></div>
+      <div><span>⚡</span><p><strong>Phục vụ nhanh</strong><small>Tiện cho giờ giải lao</small></p></div>
+    </section>
+
+    <section class="section products-section" id="san-pham">
+      <div class="section-heading">
+        <div><span class="eyebrow">MENU ĐƯỢC YÊU THÍCH</span><h2>Chọn món <span>của bạn</span></h2></div>
+        <p>Những món ngon giúp giờ học và giờ nghỉ thêm thú vị.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-art art-matcha"><span class="product-emoji">🍵</span><span class="product-badge">Bán chạy</span></div>
+          <div class="product-info"><div class="product-title"><h3>Matcha Latte</h3><strong>25.000đ</strong></div><p>Matcha thơm dịu hòa cùng sữa béo mịn.</p><button class="order-button" data-product="Matcha Latte">Chọn món <span>＋</span></button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-art art-peach"><span class="product-emoji">🍑</span><span class="product-badge">Tươi mát</span></div>
+          <div class="product-info"><div class="product-title"><h3>Trà đào cam sả</h3><strong>20.000đ</strong></div><p>Vị trà thanh mát, thơm hương cam sả.</p><button class="order-button" data-product="Trà đào cam sả">Chọn món <span>＋</span></button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-art art-coffee"><span class="product-emoji">🧋</span><span class="product-badge">Tỉnh táo</span></div>
+          <div class="product-info"><div class="product-title"><h3>Cà phê sữa</h3><strong>18.000đ</strong></div><p>Đậm đà, thơm ngon cho ngày học hiệu quả.</p><button class="order-button" data-product="Cà phê sữa">Chọn món <span>＋</span></button></div>
+        </article>
+      </div>
+      <p class="menu-hint">* Giá và menu là nội dung mẫu, bạn có thể thay đổi trong file index.html.</p>
+    </section>
+
+    <section class="about-section" id="gioi-thieu">
+      <div class="about-illustration"><div class="about-circle">GS</div><span class="spark spark-one">✦</span><span class="spark spark-two">✧</span><span class="about-caption">Made for students ♡</span></div>
+      <div class="about-copy"><span class="eyebrow">CÂU CHUYỆN CỦA CHÚNG MÌNH</span><h2>Góc nhỏ tiếp thêm<br><span>năng lượng lớn</span></h2><p>Góc Sinh Viên bắt đầu từ một ý tưởng giản dị: mang đến những ly đồ uống ngon, dễ mua và phù hợp với nhịp sống học đường. Chúng mình mong mỗi lần ghé quán sẽ là một khoảng nghỉ vui vẻ giữa những giờ học bận rộn.</p><ul><li>✓ Nguyên liệu được chuẩn bị mỗi ngày</li><li>✓ Mức giá thân thiện với sinh viên</li><li>✓ Nhận đặt trước cho nhóm bạn</li></ul><a class="text-link" href="#lien-he">Cùng chúng mình kết nối →</a></div>
+    </section>
+
+    <section class="contact-section" id="lien-he">
+      <div class="contact-copy"><span class="eyebrow">BẠN ĐÃ SẴN SÀNG?</span><h2>Đặt món yêu thích<br><span>ngay hôm nay!</span></h2><p>Điền thông tin, chúng mình sẽ liên hệ xác nhận đơn hàng.</p><div class="contact-detail"><span>✉</span><div><strong>Email</strong><small>gocsinhvien@example.com</small></div></div><div class="contact-detail"><span>☎</span><div><strong>Điện thoại</strong><small>0123 456 789</small></div></div></div>
+      <form class="contact-form" id="orderForm">
+        <h3>Gửi yêu cầu đặt hàng</h3>
+        <label for="fullName">Họ và tên</label><input id="fullName" name="fullName" autocomplete="name" required placeholder="Nhập tên của bạn">
+        <label for="email">Email hoặc số điện thoại</label><input id="email" name="email" required placeholder="Thông tin để liên hệ lại">
+        <label for="product">Sản phẩm quan tâm</label><select id="product" name="product" required><option value="">-- Chọn sản phẩm --</option><option>Matcha Latte</option><option>Trà đào cam sả</option><option>Cà phê sữa</option><option>Khác / cần tư vấn</option></select>
+        <label for="message">Lời nhắn</label><textarea id="message" name="message" rows="3" placeholder="Số lượng, thời gian nhận..."></textarea>
+        <button class="button button-primary submit-button" type="submit">Gửi yêu cầu <span>→</span></button>
+        <p class="form-note" id="formNote" role="status">Bản demo: biểu mẫu hiện thông báo trên trình duyệt, chưa gửi dữ liệu lên máy chủ.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#trang-chu"><span class="brand-mark">GS</span><span class="brand-text"><strong>GÓC SINH VIÊN</strong><small>Đồ uống vui - Giá sinh viên</small></span></a><p>© 2026 Góc Sinh Viên. Landing page bài tập nhóm.</p><div class="footer-links"><a href="#san-pham">Menu</a><a href="#gioi-thieu">Về chúng mình</a><a href="#lien-he">Liên hệ</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
